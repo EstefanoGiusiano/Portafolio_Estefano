@@ -1,0 +1,60 @@
+EJERCICIO 1
+
+public static void zoop () {
+baffle ();
+System.out.print ("Vos zacata ");
+baffle ();
+}
+public static void main (String[] args) {
+System.out.print ("No, yo ");
+zoop ();
+System.out.print ("Yo ");
+baffle ();
+}
+public static void baffle () {
+System.out.print ("pac");
+ping ();
+}
+public static void ping () {
+System.out.println (".");
+}
+
+¿Cuál es la salida?
+Salida: El programa comienza en el main, por lo que lo primero que hace es llamar a print() con "No, yo ", luego llama zoop()
+dentro de zoop() llama a buffle() e imprime "pac". Después llama a ping() y escribe "." y salta de linea. Vuelve a zoop() y sigue, 
+ejecuta "Vos zacata" y llama a buffle(), por lo que escribe "pac" y llama a ping() poniendo el punto "." y saltando de linea.Como termino esas instrucciones,
+vuelve al main y ejecuta "Yo" y llama a buffle() (última instruccion del main). En buffle() escribe "pac" y llama a ping() pone "." salta de linea y termina.
+
+Quedando así el resultado final:
+
+No, yo pac.
+Vos zacata pac.
+Yo pac.
+
+EJERCICIO 2
+
+public class Zumbido {
+public static void desconcertar (String dirigible) {
+ System.out.println (dirigible);(1)
+ sipo ("ping", -5);
+}
+public static void sipo (String membrillo, int flag) {
+ if (flag < 0) {
+ System.out.println (membrillo + " sup");(1)
+ } else {
+ System.out.println ("ik");(1)
+ desconcertar (membrillo);
+ System.out.println ("muaa-ja-ja-ja");(1)
+ }
+ }
+public static void main (String[] args) {
+ sipo ("traqueteo", 13);
+ }
+}
+
+a) La primer sentencia que se ejecuta es : el else del sipo llamado con "traqueteo" y 13 como flag, por lo que entra al else y ejecuta System.out.print("ik") primero.
+
+b)Está en el código arriba.
+
+
+
