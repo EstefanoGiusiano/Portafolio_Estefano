@@ -1,0 +1,37 @@
+EJERCICIO 1
+
+Nuevo nodo otroNodo
+otroNodo.siguiente <-- nodo1
+nodo2.siguiente <-- nodo3 
+
+b) Inserta “otroNodo” en la lista, quedando entre nodo1 y nodo2.
+
+EJERCICIO 2
+Nuevo nodo otroNodo
+otroNodo <-- nodo1.siguiente
+nodo1.siguiente <--  nodo3 
+
+c) Elimina nodo2 de la lista. 
+
+EJERCICIO 3
+Nuevo nodo otroNodo
+otroNodo.siguiente <-- nodo1.siguiente
+nodo1.siguiente <-- otroNodo 
+
+c) Elimina nodo2 de la lista. 
+
+EJERCICIO 4
+Nuevo nodo otroNodo
+Nuevo nodo nodoActual
+nodoActual <-- primero
+mientras nodoActual <> nulo hacer
+ nodoActual <-- nodoActual.siguiente
+fin mientras
+nodoActual.siguiente <-- otroNodo 
+
+c) El algoritmo está mal hecho, ya que dará error en tiempo de ejecución si la lista está
+vacía.
+
+
+
+
