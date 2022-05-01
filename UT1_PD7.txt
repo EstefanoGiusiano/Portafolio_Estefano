@@ -1,0 +1,11 @@
+EJERCICIO 1
+ El operador == en lugar del método equals, ambos realizan pruebas diferentes para determinar la igualdad. Mientras que el método equals
+compara los caracteres contenidos en una String, el operador == compara dos referencias de  un objeto para ver si se refieren a la misma instancia. 
+Por tanto, no podemos usar el signo == por que esta sería una comparación binaria de punteros a memoria y no nos devolvería el valor correcto.
+
+En c# se usa el método compare to para comparar string 
+
+EJERCICIO2
+En el primer ejemplo se ejecuta "True" ya que son iguales los strings y la comparacion es mediante el operador if.
+
+En el segundo se ejecuta "False" por la misma lógica.
