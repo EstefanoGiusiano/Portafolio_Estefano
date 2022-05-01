@@ -32,6 +32,11 @@ nodoActual.siguiente <-- otroNodo
 c) El algoritmo está mal hecho, ya que dará error en tiempo de ejecución si la lista está
 vacía.
 
+EJERCICIO 5
+
+a) Inserta correctamente “otroNodo” en la lista, quedando como último nodo. 
+
+
 
 
 
